@@ -38,3 +38,4 @@ class OutsideNearLight(NewLight):
         self.switch = "Outside Switch"
 
         self.other_light_trackers["light.outside_group"] = -1
+        self.track_other_light_off_events = True
