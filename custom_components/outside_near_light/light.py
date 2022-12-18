@@ -36,3 +36,5 @@ class OutsideNearLight(NewLight):
 
         self.entities["light.outside_near_group"] = None
         self.switch = "Outside Switch"
+
+        self.other_light_trackers["light.outside_group"] = -1
